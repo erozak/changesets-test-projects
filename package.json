@@ -12,7 +12,9 @@
     "node": ">=16",
     "pnpm": ">=7"
   },
-  "scripts": {},
+  "scripts": {
+    "prepare": "husky install"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/erozak/changesets-test-projects.git"
@@ -25,5 +27,8 @@
   "homepage": "https://github.com/erozak/changesets-test-projects#readme",
   "dependencies": {
     "@changesets/cli": "^2.23.0"
+  },
+  "devDependencies": {
+    "husky": "^8.0.0"
   }
 }
