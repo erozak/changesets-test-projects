@@ -1,6 +1,6 @@
 {
   "name": "@erzoak/changesets-test-projects",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "",
   "packageManager": "pnpm@7.4.0",
   "workspaces": {
@@ -13,7 +13,8 @@
     "pnpm": ">=7"
   },
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "commit": "cz"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,17 @@
     "@changesets/cli": "^2.23.0"
   },
   "devDependencies": {
-    "husky": "^8.0.0"
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "@commitlint/cz-commitlint": "^17.0.3",
+    "@commitlint/format": "^17.0.0",
+    "commitizen": "^4.2.4",
+    "husky": "^8.0.0",
+    "inquirer": "^8.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/cz-commitlint"
+    }
   }
 }
