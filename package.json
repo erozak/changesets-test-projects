@@ -1,0 +1,26 @@
+{
+  "name": "@erzoak/changesets-test-projects",
+  "version": "1.0.0",
+  "description": "",
+  "packageManager": "pnpm@7.4.0",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "engines": {
+    "node": ">=16",
+    "pnpm": ">=7"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erozak/test-changesets.git"
+  },
+  "author": "erozk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erozak/test-changesets/issues"
+  },
+  "homepage": "https://github.com/erozak/test-changesets#readme"
+}

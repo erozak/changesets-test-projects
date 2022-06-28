@@ -1,0 +1,19 @@
+{
+  "name": "@erzoak/changesets-test-project-b",
+  "type": "commonjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erozak/test-changesets.git"
+  },
+  "author": "erozak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erozak/test-changesets/issues"
+  },
+  "homepage": "https://github.com/erozak/test-changesets#readme"
+}
