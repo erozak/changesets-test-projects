@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/erozak/test-changesets/issues"
   },
-  "homepage": "https://github.com/erozak/test-changesets#readme"
+  "homepage": "https://github.com/erozak/test-changesets#readme",
+  "dependencies": {
+    "@changesets/cli": "^2.23.0"
+  }
 }
