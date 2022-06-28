@@ -8,12 +8,12 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/erozak/test-changesets.git"
+    "url": "git+https://github.com/erozak/changesets-test-projects.git"
   },
   "author": "erozak",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/erozak/test-changesets/issues"
+    "url": "https://github.com/erozak/changesets-test-projects/issues"
   },
-  "homepage": "https://github.com/erozak/test-changesets#readme"
+  "homepage": "https://github.com/erozak/changesets-test-projects#readme"
 }
